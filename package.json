@@ -1,0 +1,18 @@
+{
+    "name": "octicons-marko",
+    "version": "1.0.0",
+    "description": "Octicon component for Marko.js, using inline SVG.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Teddy95/octicons-marko.git"
+    },
+    "author": "Andre Sieverding",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Teddy95/octicons-marko/issues"
+    },
+    "homepage": "https://github.com/Teddy95/octicons-marko#readme",
+    "dependencies": {
+        "@primer/octicons": "^9.1.1"
+    }
+}
