@@ -1,22 +1,38 @@
 {
-    "name": "octicons-marko",
-    "version": "1.0.0",
-    "description": "Octicon component for Marko.js, using inline SVG.",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Teddy95/octicons-marko.git"
-    },
-    "author": "Andre Sieverding",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Teddy95/octicons-marko/issues"
-    },
-    "homepage": "https://github.com/Teddy95/octicons-marko#readme",
-    "dependencies": {
-        "@primer/octicons": "^9.1.1",
-        "css-loader": "^3.2.0",
-        "marko": "^4.18.14",
-        "node-sass": "^4.12.0",
-        "sass-loader": "^8.0.0"
-    }
+  "name": "octicons-marko",
+  "version": "1.0.1",
+  "description": "Octicon component for Marko.js, using inline SVG.",
+  "main": "./components/octicon/index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teddy95/octicons-marko.git"
+  },
+  "author": "Andre Sieverding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teddy95/octicons-marko/issues"
+  },
+  "homepage": "https://github.com/Teddy95/octicons-marko#readme",
+  "dependencies": {
+    "@primer/octicons": "^9.1.1"
+  },
+  "devDependencies": {
+    "@marko/webpack": "^2.0.0",
+    "cross-env": "^6.0.0",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^3.2.0",
+    "marko": "^4.18.14",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "svg-url-loader": "^3.0.2",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "browser": {
+    "components/octicon/index.js": "components/octicon/index.browser.js"
+  }
 }
