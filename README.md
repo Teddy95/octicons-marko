@@ -3,27 +3,36 @@
 Use [Octicons](https://octicons.github.com/) in your Marko.js application.  
 This module was inspired by the [Vue.js Octicon component](https://github.com/Justineo/vue-octicon).
 
+## Get started
+
+You just have to install octicons-marko and include it into your app:
+
+```bash
+# Install octicons-marko via npm
+$ npm install octicons-marko
+```
+
 ### Basic
 
-```marko
+```html
 <octicon name="git-pull-request"></octicon>
 ```
 
 ### Scale
 
-```marko
+```html
 <octicon name="repo" scale="3"></octicon>
 ```
 
 ### Spin
 
-```marko
+```html
 <octicon name="sync" spin></octicon>
 ```
 
 ### Flip
 
-```marko
+```html
 <octicon name="squirrel" flip="vertical"></octicon>
 <octicon name="squirrel" flip="horizontal"></octicon>
 ```
