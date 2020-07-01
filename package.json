@@ -1,6 +1,6 @@
 {
   "name": "octicons-marko",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Octicon component for Marko.js, using inline SVG.",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/Teddy95/octicons-marko#readme",
   "dependencies": {
-    "@primer/octicons": "^9.4.0",
-    "marko": "^4.18.51"
+    "@primer/octicons": "^10.0.0",
+    "marko": "^4.22.0"
   }
 }
